@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.div {
+    background-color: rgb(108, 218, 239);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 45px;
+}
+
+.logo{
+    margin-right: auto;
+    font-weight: bold;
+    color: #333;
+    font-size: 28px;
+}
+
+
+
+a {
+            font-size: 20px;
+            color: #7f8c8d;
+            cursor: pointer;
+            user-select: none;
+            text-decoration: none;
+}
+a:active {
+    color: #2ecc71;
+}
+
+.home {
+    text-align: center;
+    font-size: 30px;
+    margin: 150px;
+    height: 100px
+    
+    
+}
+
+.container-konten {
+  display: flex;          /* Membuat isi di dalamnya berjejer ke samping */
+  align-items: center;    /* Membuat foto dan teks sejajar secara vertikal (tengah) */
+  gap: 20px;              /* Memberikan jarak antara foto dan tulisan */
+  max-width: 800px;       /* Membatasi lebar kontainer biar rapi */
+  margin: 50px auto;      /* Membuat posisi kontainer di tengah halaman */
+  padding: 0 20px;
+}
+
+.foto-profil {
+  width: 150px;           /* Atur ukuran lebar foto sesuai kebutuhan */
+  height: auto;           /* Menjaga proporsi foto */
+}
+
+.teks-profil h2 {
+  margin: 0 0 10px 0;     /* Mengatur jarak tulisan */
+}
